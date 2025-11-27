@@ -1,4 +1,4 @@
-export class ProductModel {
+export class ProductDto {
     _id: string
     image: string;
     title: string;
