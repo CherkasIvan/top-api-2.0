@@ -1,6 +1,7 @@
 import { ETopLevelCategory } from "../../enum/top-level-category.enum";
 
 export class TopPageModel {
+  _id: string
   firstLevelCategory: ETopLevelCategory
   secondLevelCategory: string
   title: string

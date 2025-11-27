@@ -1,4 +1,4 @@
-export class ReviewModel {
+export class ReviewDto {
   _id: string
   name:string
   title:string
