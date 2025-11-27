@@ -1,0 +1,9 @@
+{
+  "editor.dropIntoEditor.preferences": [
+
+  ],
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "prettier.configPath": "C:\\Users\\JV13\\Desktop\\Projects\\oib-administration-frontend\\.prettierrc",
+  "prettier.requireConfig": true
+}
