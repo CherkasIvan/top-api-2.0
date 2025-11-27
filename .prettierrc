@@ -1,4 +1,52 @@
 {
   "singleQuote": true,
-  "trailingComma": "all"
+  "semi": true,
+  "proseWrap": "always",
+  "trailingComma": "all",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "arrowParens": "always",
+  "singleAttributePerLine": true,
+  "printWidth": 80,
+  "tabWidth": 4,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": ["./**/*.html", "./**/*.scss", "./**/*.css"],
+      "options": {
+        "printWidth": 120
+      }
+    }
+  ],
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^@nestjs/(.*)$",
+    "^@core/(.*)$",
+    "^@common/(.*)$",
+    "^rxjs/(.*)$",
+    "^@config/(.*)$",
+    "^@entities/(.*)$",
+    "^@models/(.*)$",
+    "^@dto/(.*)$",
+    "^@interfaces/(.*)$",
+    "^@shared/(.*)$",
+    "^@modules/(.*)$",
+    "^@constants/(.*)$",
+    "^@repositories/(.*)$",
+    "^@guards/(.*)$",
+    "^@interceptors/(.*)$",
+    "^@filters/(.*)$",
+    "^@pipes/(.*)$",
+    "^@decorators/(.*)$",
+    "^@database/(.*)$",
+    "^@cache/(.*)$",
+    "^@utils/(.*)$",
+    "^@helpers/(.*)$",
+    "^[../]",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderParserPlugins": ["decorators-legacy", "typescript"]
 }
