@@ -19,12 +19,12 @@
         "strictPropertyInitialization": false,
         "noFallthroughCasesInSwitch": false,
         "paths": {
-            "@core/*": ["src/core/*"],
-            "@shared/*": ["src/shared/*"],
-            "@common/*": ["src/common/*"],
-            "@modules/*": ["src/modules/*"],
-            "@config/*": ["src/config/*"],
-            "@utils/*": ["src/utils/*"]
+            "@core/*": ["src/app/core/*"],
+            "@shared/*": ["src/app/shared/*"],
+            "@common/*": ["src/app/common/*"],
+            "@modules/*": ["src/app/modules/*"],
+            "@config/*": ["src/app/core/config/*"],
+            "@utils/*": ["src/app/utils/*"]
         }
     }
 }
